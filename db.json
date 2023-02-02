@@ -1,19 +1,10 @@
 {
-  "posts": [
+  "blogs": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "title": "Angular Blog Application",
+      "content": "Learn with me creating the blog application",
+      "author": "Miromac"
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
