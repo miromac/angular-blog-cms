@@ -2,6 +2,12 @@
   "blogs": [
     {
       "id": 1,
+      "title": "Angular Tutorial",
+      "content": "Learn with me Angular basics",
+      "author": "Miromac"
+    },
+    {
+      "id": 2,
       "title": "Angular Blog Application",
       "content": "Learn with me creating the blog application",
       "author": "Miromac"

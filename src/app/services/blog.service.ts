@@ -5,7 +5,9 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class BlogService {
+  
   baseUrl = "http://localhost:3000/blogs"
+  
   constructor(private http:HttpClient) { }
 
   // get All data
@@ -20,7 +22,7 @@ export class BlogService {
 
   // get blog by ID
   getBlogById(id:any) {
-    return this.http.get(`this.baseUrl/${id}`)
+    return this.http.get(this.baseUrl+`/${id}`)
   }
 
   // update blog
