@@ -1,21 +1,21 @@
-<div class="container">
-  <h2 class="text-center">Add Your Blog Here</h2>
-  <form [formGroup]="addBlog">
-    <div class="mb-3">
-      <label for="title" class="form-label">Title</label>
-      <input type="text" class="form-control" formControlName="title" id="title">
-    </div>
-    <div class="mb-3">
-      <label for="author" class="form-label">Author</label>
-      <input type="text" class="form-control" formControlName="author" id="author">
-    </div>
-    <div class="mb-3">
-      <label for="content" class="form-label">Content</label>
-      <textarea class="form-control" placeholder="Leave a Blog here"
-        formControlName="content"
-        id="content">
+<div class="fullcontainer">
+  <div class="container">
+    <h2 class="text-center">Add Your Blog Here</h2>
+    <form [formGroup]="addBlog">
+      <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" class="form-control" formControlName="title" id="title">
+      </div>
+      <div class="mb-3">
+        <label for="author" class="form-label">Author</label>
+        <input type="text" class="form-control" formControlName="author" id="author">
+      </div>
+      <div class="mb-3">
+        <label for="content" class="form-label">Content</label>
+        <textarea class="form-control" placeholder="Leave a Blog here" formControlName="content" id="content">
       </textarea>
-    </div>
-    <button type="submit" (click)="onSubmit()" class="btn btn-primary">Submit</button>
-  </form>
+      </div>
+      <button type="submit" (click)="onSubmit()" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
 </div>
